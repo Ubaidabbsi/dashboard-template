@@ -274,7 +274,22 @@ body {
     height: 34px;
     width: 150px;
     border-radius: 5px;
-    border: 1px solid #0000001A
+    border: 1px solid #0000001A;
+
+    font-family: Titillium Web;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    
+
+
+    color: #FFFFFF;
+
+ 
+    
+
 }
 
 .logo-1 {
