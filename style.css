@@ -717,14 +717,14 @@ text-align: center;
 
     height: 34px;
 width: 107.9375px;
-  background: #e4e2e2;
+  /* background: #e4e2e2; */
 
 border-radius: [object Object]px;
 border: 1px solid #0000000D;
 box-shadow: 0px 5px 15px 0px #0000000D;
 font-family: Titillium Web;
 font-size: 13px;
-font-weight: 400;
+font-weight: 500;
 line-height: 20px;
 letter-spacing: 0em;
 /* text-align: left; */
@@ -732,7 +732,7 @@ letter-spacing: 0em;
 
 }
 #btn-2{
-    background: #e4e2e2;
+    /* background: #e4e2e2; */
 
     margin-left: 12px;
     height: 34px;
