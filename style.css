@@ -4,6 +4,8 @@
 }
 
 body {
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: #F5F5F5;
 }
 
@@ -49,7 +51,10 @@ body {
 
     margin-top: 5%;
 }
+#one:hover{
+    background: #0039521A;
 
+}
 #one img {
     margin-top: 5%;
     margin-left: 10%;
@@ -66,13 +71,20 @@ body {
     text-align: left;
 
 }
-
+#one p:hover{
+    font-weight: 600;
+    
+}
 #two {
     display: flex;
     padding-bottom: 6%;
     margin-top: 5%;
 }
 
+#two:hover{
+    background: #0039521A;
+
+}
 #two img {
     margin-top: 5%;
     margin-left: 10%;
@@ -89,6 +101,10 @@ body {
     text-align: left;
 
 }
+#two p:hover{
+    font-weight: 600;
+    
+}
 
 #three {
     display: flex;
@@ -97,6 +113,10 @@ body {
     margin-top: 5%;
 }
 
+#three:hover{
+    background: #0039521A;
+
+}
 #three img {
     margin-top: 5%;
     margin-left: 10%;
@@ -113,16 +133,21 @@ body {
     text-align: left;
 
 }
+#three p:hover{
+    font-weight: 600;
+    
+}
 
 #four {
     display: flex;
     margin-top: 5%;
     border-radius: 0px;
-    background: #0039521A;
     padding-bottom: 7%;
-
-
 }
+#four:hover{
+    background: #0039521A;
+}
+
 
 #four img {
     margin-top: 5%;
@@ -134,14 +159,15 @@ body {
     margin-left: 5%;
     font-family: Titillium Web;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
-
-
 }
-
+#four p:hover{
+    font-weight: 600;
+    
+}
 #five {
     padding-bottom: 7%;
 
@@ -149,6 +175,10 @@ body {
     margin-top: 5%;
 }
 
+#five:hover{
+    background: #0039521A;
+
+}
 #five img {
     margin-top: 5%;
     margin-left: 10%;
@@ -165,6 +195,10 @@ body {
     text-align: left;
 
 }
+#five p:hover{
+    font-weight: 600;
+    
+}
 
 #six {
     display: flex;
@@ -173,6 +207,10 @@ body {
     margin-top: 5%;
 }
 
+#six:hover{
+    background: #0039521A;
+
+}
 #six img {
     margin-top: 5%;
     margin-left: 10%;
@@ -188,6 +226,10 @@ body {
     letter-spacing: 0em;
     text-align: left;
 
+}
+#six p:hover{
+    font-weight: 600;
+    
 }
 
 .section {
@@ -210,6 +252,7 @@ body {
     justify-content: space-between;
     height: 55px;
     width: 100%;
+   
     border-radius: 0px;
     background: #FFFFFF;
 
@@ -225,7 +268,7 @@ body {
     color: #1F1F1F;
     width: 20%;
     margin-top: 1.4%;
-    margin-left: 3%;
+    margin-left: 1%;
 
 }
 
@@ -237,7 +280,7 @@ body {
 }
 
 .pix img {
-    margin-left: 5%;
+    margin-left: 2%;
     margin-top: 1.4%;
     margin-right: 2%;
 }
@@ -281,10 +324,6 @@ body {
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 0em;
-    /* text-align: left; */
-    
-
-
     color: #FFFFFF;
 
  
@@ -304,6 +343,7 @@ body {
 }
 
 .form {
+    width: fit-content;
     display: flex;
     margin-left: 3.5%;
     margin-right: 3.5%;
@@ -312,17 +352,21 @@ body {
 }
 
 .one {
-    margin-left: 5%;
+    height: 34px;
+width: 300px;
+
+border-radius: 5px;
+
+    /* margin-left: 5%; */
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     display: flex;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     height: 34px;
-    width: 520px;
-    left: 283px;
-    top: 182px;
-    border-radius: 5px;
+    /* width: fit-content; */
+  
+    /* border-radius: 5px; */
     border: 1px solid #0000001A;
     /* background: #0000001A; */
     box-shadow: 0px 5px 15px 0px #0000000D;
@@ -344,7 +388,7 @@ body {
     cursor: text;
 }
 
-.one input {
+.one p {
     font-family: Titillium Web;
     font-size: 13px;
     font-weight: 400;
@@ -354,7 +398,7 @@ body {
     border: none;
     width: 100%;
     display: flex;
-    /* margin-top: 2%; */
+    margin-top: 2.5%;
     margin-left: 5%;
     text-transform: capitalize;
     color: #C0C0C0;
@@ -378,7 +422,7 @@ span {
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     height: 34px;
-    width: 200px;
+    width: 220px;
     left: 283px;
     top: 182px;
     border-radius: 5px;
@@ -404,7 +448,7 @@ span {
 }
 
 select {
-    width: 200px;
+    width: 190px;
     height: fit-content;
     border: none;
     margin-bottom: 4%;
@@ -422,13 +466,14 @@ select {
 .three {
     display: flex;
     margin-top: 2.5%;
-    text-align: right;
-    margin-left: 18%;
+   justify-content: end;
+   margin-left: 200px;
+    
 }
 
 .box {
 
-    margin-left: 8%;
+    margin-left: 10%;
     /* margin-top: .8%; */
     margin-bottom: 2.5%;
     display: flex;
@@ -646,7 +691,7 @@ footer {
     justify-content: space-evenly;
 }
 #no p{
-    margin-left: 5px;
+    margin-left: 12px;
     height: 34px;
     width: 34px;
     left: 1061.375px;
@@ -672,6 +717,7 @@ text-align: center;
 
     height: 34px;
 width: 107.9375px;
+  background: #e4e2e2;
 
 border-radius: [object Object]px;
 border: 1px solid #0000000D;
@@ -686,7 +732,9 @@ letter-spacing: 0em;
 
 }
 #btn-2{
-    margin-left: 5px;
+    background: #e4e2e2;
+
+    margin-left: 12px;
     height: 34px;
 width: 107.9375px;
 left: 895.4375px;
